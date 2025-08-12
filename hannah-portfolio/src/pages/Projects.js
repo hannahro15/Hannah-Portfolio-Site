@@ -35,14 +35,14 @@ const solo_projects = [
 const hack_projects = [
     {
         title: "Dating Events",
-        description: "A site for dating events around the UK as part of the Love.exe hackathon",
+        description: "A site for dating events around the UK as part of the Love.exe hackathon.",
         technologies: ["HTML, ", "CSS, ", "Tailwind, ", "Django "],
         github: "https://github.com/hannahro15/CI-Feb25-hackathon",
         demo: "https://dating-events-app-512687071453.herokuapp.com/"
     },
     {
         title: "Script to Sound",
-        description: "A text to speech appp built as part of the accesibility hackathon",
+        description: "A text to speech appp built as part of the accessibility hackathon.",
         technologies: ["HTML, ", "CSS, ", "JavaScript "],
         github: "https://github.com/hannahro15/Nov24Hackathon",
         demo: "https://script-to-sound-f697c5a0720c.herokuapp.com/"
@@ -59,9 +59,9 @@ function Projects() {
                 {solo_projects.map((data, index) => {
                     return (
                         <div className="project-card" key={index}>
-                            <p>Title: {data.title}</p>
-                            <p>Description: {data.description}</p>
-                            <p>Technologies: {data.technologies}</p>
+                            <p><strong>Title: </strong>{data.title}</p>
+                            <p><strong>Description: </strong>{data.description}</p>
+                            <p><strong>Technologies: </strong>{data.technologies}</p>
                             <a href={data.github} target="blank" rel="noreferrer" >GitHub</a>
                             <br></br>
                             <a href={data.demo} target="_blank" rel="noreferrer">Live Site</a>
@@ -73,9 +73,9 @@ function Projects() {
                 {hack_projects.map((data, index) => {
                     return (
                         <div className="project-card" key={index}>
-                            <p>Title: {data.title}</p>
-                            <p>Description: {data.description}</p>
-                            <p>Technologies: {data.technologies}</p>
+                            <p><strong>Title: </strong>{data.title}</p>
+                            <p><strong>Description: </strong>{data.description}</p>
+                            <p><strong>Technologies: </strong>{data.technologies}</p>
                             <a href={data.github} target="blank" rel="noreferrer" >GitHub</a>
                             <br></br>
                             <a href={data.demo} target="_blank" rel="noreferrer">Live Site</a>
