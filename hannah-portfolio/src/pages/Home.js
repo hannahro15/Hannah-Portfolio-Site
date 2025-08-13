@@ -1,13 +1,16 @@
+import { Link } from 'react-router-dom';
 import '../App.css';
 import Navbar from '../components/Navbar';
+import '../pages/Home.css'
 
 function Home() {
     return (
         <>
             <Navbar />
-            <div className="App">
-                <h1>Welcome to My Portfolio</h1>
-                <p>This is the home page of my portfolio site.</p>
+            <div className="home">
+                <h1>Welcome to Hannah's Portfolio</h1>
+                <h2>Junior Web Developer and Data Professional</h2>
+                <p>Click <Link to="/projects"> here </Link>to view my solo and hackathon projects.</p>
             </div>
         </>
     );
