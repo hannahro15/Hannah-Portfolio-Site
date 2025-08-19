@@ -1,16 +1,19 @@
-body {
+/* Home page specific styles */
+.home {
     background-color: skyblue;
+    min-height: 100vh;
+    padding: 20px;
 }
 
-h1 {
+.home h1 {
     font-size: 60px;
     padding-top: 10%;
 }
 
-h2 {
+.home h2 {
     font-size: 35px;
 }
 
-p {
+.home p {
     font-size: 20px;
 }
