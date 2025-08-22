@@ -1,19 +1,25 @@
 /* Home page specific styles */
 .home {
-    background-color: skyblue;
     min-height: 100vh;
     padding: 20px;
+    background-image: url('../assets/background-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .home h1 {
     font-size: 60px;
     padding-top: 10%;
+    color: white;
 }
 
 .home h2 {
     font-size: 35px;
+    color: white;
 }
 
 .home p {
     font-size: 20px;
+    color: white;
 }
