@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Hannah-Portfolio-Site/static/css/main.9730aa82.css",
-    "main.js": "/Hannah-Portfolio-Site/static/js/main.79750584.js",
+    "main.css": "/Hannah-Portfolio-Site/static/css/main.65d37500.css",
+    "main.js": "/Hannah-Portfolio-Site/static/js/main.79778b1a.js",
     "static/js/453.4b504c47.chunk.js": "/Hannah-Portfolio-Site/static/js/453.4b504c47.chunk.js",
     "static/media/background-img.jpg": "/Hannah-Portfolio-Site/static/media/background-img.9d11efcb5e38b8e98600.jpg",
     "index.html": "/Hannah-Portfolio-Site/index.html",
-    "main.9730aa82.css.map": "/Hannah-Portfolio-Site/static/css/main.9730aa82.css.map",
-    "main.79750584.js.map": "/Hannah-Portfolio-Site/static/js/main.79750584.js.map",
+    "main.65d37500.css.map": "/Hannah-Portfolio-Site/static/css/main.65d37500.css.map",
+    "main.79778b1a.js.map": "/Hannah-Portfolio-Site/static/js/main.79778b1a.js.map",
     "453.4b504c47.chunk.js.map": "/Hannah-Portfolio-Site/static/js/453.4b504c47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9730aa82.css",
-    "static/js/main.79750584.js"
+    "static/css/main.65d37500.css",
+    "static/js/main.79778b1a.js"
   ]
 }
