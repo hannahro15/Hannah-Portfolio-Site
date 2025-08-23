@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import ProjectCard from '../components/ProjectCard';
 import { solo_projects, hack_projects } from '../data/projectsData';
 
@@ -19,6 +20,7 @@ function Projects() {
                     <ProjectCard key={index} project={project} />
                 ))}
             </div>
+            <Footer />
         </>
     );
 }

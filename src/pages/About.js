@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import '../pages/About.css'
 
 function About() {
@@ -19,6 +20,7 @@ function About() {
                 <p>In my free time, I enjoy working on personal coding projects, playing in amateur orchestras, cooking, baking, and doing jigsaw puzzles.
                 </p>
             </div>
+            <Footer />
         </>
     );
 }

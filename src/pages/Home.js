@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import '../pages/Home.css'
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
                 <h2>Junior Web Developer and Data Professional</h2>
                 <p>Click <Link to="/projects"> here </Link>to view my solo and hackathon projects.</p>
             </div>
+            <Footer />
         </>
     );
 }

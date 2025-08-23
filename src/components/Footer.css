@@ -1,0 +1,13 @@
+.footer {
+    background-color: lightgrey;
+    padding: 0.5rem;
+    color: black;
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 0 5px;
+    height: 24px;
+    width: 24px;
+    display: inline;
+}
