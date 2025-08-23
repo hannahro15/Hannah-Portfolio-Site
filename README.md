@@ -42,10 +42,6 @@ npm start
 - `npm start` - Runs the app in development mode
 - `npm run build` - Builds the app for production
 - `npm run deploy` - Deploys to GitHub Pages
-- `npm test` - Launches the test runner
 
 ## 📦 Deployment
 This site is automatically deployed to GitHub Pages using GitHub Actions when changes are pushed to the main branch.
-
-## 📝 License
-This project is open source and available under the [MIT License](LICENSE).
