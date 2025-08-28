@@ -1,0 +1,24 @@
+.project-card {
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #fff;
+    color: black;
+}
+
+@media screen and (min-width: 600px) {
+    .project-card {
+        margin: 24px auto;
+        padding: 12px;
+        max-width: 500px;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    .project-card {
+        margin: 50px auto;
+        padding: 16px;
+        max-width: 600px;
+    }
+}
