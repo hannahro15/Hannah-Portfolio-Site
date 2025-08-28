@@ -6,9 +6,9 @@ function ProjectCard({ project }) {
             <p><strong>Title: </strong>{project.title}</p>
             <p><strong>Description: </strong>{project.description}</p>
             <p><strong>Technologies: </strong>{project.technologies}</p>
-            <a href={project.github} target="_blank" rel="noreferrer">GitHub</a>
+            <a className="github-link" href={project.github} target="_blank" rel="noreferrer">GitHub</a>
             <br />
-            <a href={project.demo} target="_blank" rel="noreferrer">Live Site</a>
+            <a className="live-site-link" href={project.demo} target="_blank" rel="noreferrer">Live Site</a>
         </div>
     );
 }

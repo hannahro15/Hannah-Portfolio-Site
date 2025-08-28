@@ -6,6 +6,28 @@
     color: black;
 }
 
+.project-card .github-link {
+    color: black;
+    background-color: darkgray;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 8px 4px 0 0;
+}
+
+.project-card .live-site-link {
+    color: black;
+    background-color: skyblue;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 8px 4px 0 0;
+}
+
 @media screen and (min-width: 600px) {
     .project-card {
         margin: 24px auto;
