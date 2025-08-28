@@ -9,8 +9,12 @@ function About() {
             </p>
             <hr></hr>
             <h2>Technical Skills</h2>
-            <p>I am proficient in HTML, CSS, JavaScript, SQL, and Python. I am currently learning React. I have experience in frameworks such as Bootstrap CSS, Tailwind CSS, and Materialize CSS too. I also have experience with Git, GitHub, and Agile methodologies and databases like MongoDB.
-                I also have data analysis skills using Pandas, Numpy, Matplotlib, and Seaborn.</p>
+            <ul>
+                <li><strong>Frontend: </strong>HTML, CSS, JavaScript, React, Bootstrap, Tailwind, Materialize</li>
+                <li><strong>Backend & Databases: </strong>Python, Django, Flask, SQL, MongoDB</li>
+                <li><strong>Data & Analysis: </strong>Pandas, Numpy, Matplotlib, Seaborn</li>
+                <li><strong>Tools & Methodologies: </strong>Git, GitHub, Heroku, AWS S3, AWS EC2, Agile, Scrum</li>
+            </ul>
             <hr></hr>
             <h2>Hobbies & Interests</h2>
             <p>In my free time, I enjoy working on personal coding projects, playing in amateur orchestras, cooking, baking, and doing jigsaw puzzles.
