@@ -4,6 +4,10 @@
     align-items: center;
     padding: 20px;
     min-height: 100vh;
+    border: solid 1px white;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: white;
 }
 
 form {
@@ -11,4 +15,37 @@ form {
     flex-direction: column;
     width: 300px;
     gap: 15px;
+}
+
+#name,
+#email,
+#message {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-bottom: 10px;
+}
+
+#message {
+    height: 100px;
+}
+
+#submit {
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin: 5px 0;
 }

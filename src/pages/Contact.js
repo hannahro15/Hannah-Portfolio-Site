@@ -9,14 +9,18 @@ function Contact() {
                 action="https://formspree.io/f/xjkeydor"
                 method="POST">
                 <label>
+                    Your name:
+                    <input id="name" type="text" name="name" required />
+                </label>
+                <label>
                     Your email:
-                    <input type="email" name="email" required />
+                    <input id="email" type="email" name="email" required />
                 </label>
                 <label>
                     Your message:
-                    <textarea name="message" required></textarea>
+                    <textarea id="message" name="message" required></textarea>
                 </label>
-                <button type="submit">Send Message</button>
+                <button id="submit" type="submit">Send Message</button>
             </form>
         </div>
     );
