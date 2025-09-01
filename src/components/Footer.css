@@ -6,8 +6,20 @@
 
 .footer a {
     text-decoration: none;
-    padding: 0 5px;
-    height: 44px;
-    width: 44px;
+    padding: 20px;
+    height: 60px;
+    width: 60px;
     display: inline;
+}
+
+@media screen and (max-width: 600px) {
+    .footer p {
+        font-size: 14px;
+    }
+
+    .footer a {
+        padding: 10px;
+        height: 36px;
+        width: 36px;
+    }
 }
