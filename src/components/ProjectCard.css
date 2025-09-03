@@ -4,6 +4,9 @@
     margin: 16px;
     background-color: #fff;
     color: black;
+    flex: 1 1 300px;
+    max-width: 400px;
+    min-width: 250px;
 }
 
 .project-card .github-link {
@@ -28,19 +31,9 @@
     margin: 8px 4px 0 0;
 }
 
-@media screen and (min-width: 600px) {
-    .project-card {
-        margin: 24px auto;
-        padding: 12px;
-        max-width: 500px;
-    }
-
-}
-
-@media screen and (min-width: 900px) {
-    .project-card {
-        margin: 50px auto;
-        padding: 16px;
-        max-width: 600px;
-    }
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
 }

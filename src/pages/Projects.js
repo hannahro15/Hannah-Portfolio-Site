@@ -7,14 +7,18 @@ function Projects() {
             <h1>My Projects</h1>
 
             <h2>Individual Projects</h2>
-            {solo_projects.map((project, index) => (
-                <ProjectCard key={index} project={project} />
-            ))}
+            <div className="project-grid">
+                {solo_projects.map((project, index) => (
+                    <ProjectCard key={index} project={project} />
+                ))}
+            </div>
 
             <h2>Hackathon Projects</h2>
-            {hack_projects.map((project, index) => (
-                <ProjectCard key={index} project={project} />
-            ))}
+            <div className="project-grid">
+                {hack_projects.map((project, index) => (
+                    <ProjectCard key={index} project={project} />
+                ))}
+            </div>
         </div>
     );
 }
