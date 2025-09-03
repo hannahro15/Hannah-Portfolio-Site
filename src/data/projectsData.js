@@ -3,14 +3,14 @@ export const solo_projects = [
     {
         title: "Flight Tracker App",
         description: "A flight tracker app that allows users to search for flights and view their details.",
-        technologies: ["React, ", "JavaScript, ", "CSS, ", "Node.js, ", "Aviation Stack API "],
+        technologies: ["React, ", "JavaScript, ", "CSS, ", "HTML, ", "Aviation Stack API "],
         github: "https://github.com/hannahro15/Flight-Tracker",
         demo: "https://hannahro15.github.io/Flight-Tracker/"
     },
     {
         title: "Personal Portfolio",
         description: "My personal portfolio site built with React.",
-        technologies: ["React, ", "JavaScript, ", "CSS "],
+        technologies: ["React, ", "JavaScript, ", "HTML, ", "CSS "],
         github: "https://github.com/hannahro15/hannah-portfolio-site",
         demo: "https://hannahro15.github.io/Hannah-Portfolio-Site/"
     },
