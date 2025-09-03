@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/Hannah-Portfolio-Site/static/css/main.e5ae2ca6.css",
-    "main.js": "/Hannah-Portfolio-Site/static/js/main.a2aebfdf.js",
-    "static/js/453.4b504c47.chunk.js": "/Hannah-Portfolio-Site/static/js/453.4b504c47.chunk.js",
+    "main.css": "/Hannah-Portfolio-Site/static/css/main.4372068c.css",
+    "main.js": "/Hannah-Portfolio-Site/static/js/main.a72209bc.js",
     "static/media/profile-pic.jpg": "/Hannah-Portfolio-Site/static/media/profile-pic.d8af8e5b99dee072738d.jpg",
     "static/media/background-img.jpg": "/Hannah-Portfolio-Site/static/media/background-img.9d11efcb5e38b8e98600.jpg",
     "index.html": "/Hannah-Portfolio-Site/index.html",
-    "main.e5ae2ca6.css.map": "/Hannah-Portfolio-Site/static/css/main.e5ae2ca6.css.map",
-    "main.a2aebfdf.js.map": "/Hannah-Portfolio-Site/static/js/main.a2aebfdf.js.map",
-    "453.4b504c47.chunk.js.map": "/Hannah-Portfolio-Site/static/js/453.4b504c47.chunk.js.map"
+    "main.4372068c.css.map": "/Hannah-Portfolio-Site/static/css/main.4372068c.css.map",
+    "main.a72209bc.js.map": "/Hannah-Portfolio-Site/static/js/main.a72209bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5ae2ca6.css",
-    "static/js/main.a2aebfdf.js"
+    "static/css/main.4372068c.css",
+    "static/js/main.a72209bc.js"
   ]
 }
