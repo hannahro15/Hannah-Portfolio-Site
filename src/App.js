@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import backgroundImg from './assets/background-img.jpg';
 import Navbar from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const appStyle = {
