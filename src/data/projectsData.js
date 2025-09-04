@@ -1,13 +1,6 @@
 // Project data for the portfolio
 export const solo_projects = [
     {
-        title: "Flight Tracker App",
-        description: "A flight tracker app that allows users to search for flights and view their details.",
-        technologies: ["React, ", "JavaScript, ", "CSS, ", "HTML, ", "Aviation Stack API "],
-        github: "https://github.com/hannahro15/Flight-Tracker",
-        demo: "https://hannahro15.github.io/Flight-Tracker/"
-    },
-    {
         title: "Personal Portfolio",
         description: "My personal portfolio site built with React.",
         technologies: ["React, ", "JavaScript, ", "HTML, ", "CSS "],
