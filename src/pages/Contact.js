@@ -4,10 +4,10 @@ import Button from 'react-bootstrap/Button';
 
 function Contact() {
     return (
-        <div className="contact text-center">
-            <h1>Contact Me</h1>
-            <p>If you wish to contact me, please use the form below. Thanks a lot.</p>
-            <Form className="contact-form w-md-70" action="https://formspree.io/f/xjkeydor" method="POST">
+        <div className="contact text-center'">
+            <h1 className="text-center">Contact Me</h1>
+            <p className="text-center">If you wish to contact me, please use the form below. Thanks a lot.</p>
+            <Form className="contact-form" action="https://formspree.io/f/xjkeydor" method="POST">
                 <Form.Group className="mb-3" controlId="name">
                     <Form.Label>Full Name</Form.Label>
                     <Form.Control type="text" placeholder="Full Name" name="name" required />

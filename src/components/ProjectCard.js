@@ -2,7 +2,7 @@ import './ProjectCard.css';
 
 function ProjectCard({ project }) {
     return (
-        <div className="project-card">
+        <div className="project-card text-center">
             <p id='project-title'><strong>{project.title}</strong></p>
             <p><strong>Description: </strong>{project.description}</p>
             <p><strong>Technologies: </strong>{project.technologies}</p>

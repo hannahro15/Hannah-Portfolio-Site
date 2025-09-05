@@ -1,14 +1,15 @@
 .navbar {
-    padding: 1rem;
-    background-color: lightgrey;
+    padding: 1rem !important;
+    background-color: lightgrey !important;
 }
 
 .navbar ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+    width: 100%;
 }
 
 .navbar li {

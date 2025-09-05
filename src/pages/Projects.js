@@ -3,7 +3,7 @@ import { solo_projects, hack_projects } from '../data/projectsData';
 
 function Projects() {
     return (
-        <div className="projects">
+        <div className="projects text-center">
             <h1>My Projects</h1>
 
             <h2>Individual Projects</h2>
