@@ -5,10 +5,14 @@ import profilePic from '../assets/profile-pic.jpg';
 function Home() {
     return (
         <div className="home">
-            <img src={profilePic} alt="Profile pic of myself" className="profile-pic" />
-            <h1>Welcome to Hannah's Portfolio</h1>
-            <h2>Junior Web Developer and Data Professional</h2>
-            <p>Click <Link to="/projects"> here </Link>to view my solo and hackathon projects.</p>
+            <img src={profilePic} alt="Hannah Olbrich, Web Developer" className="profile-pic" />
+            <h2>Junior Web Developer & Data Professional</h2>
+            <p>Seeking opportunities in Manchester/Remote</p>
+            <div className="cta-buttons">
+                <Link to="/projects" className="btn btn-secondary">View My Projects</Link>
+                <Link to="/about" className="btn btn-secondary">About Me</Link>
+                <Link to="/contact" className="btn btn-secondary">Get In Touch</Link>
+            </div>
         </div>
     );
 }
