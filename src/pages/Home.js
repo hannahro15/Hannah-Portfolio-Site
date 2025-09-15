@@ -4,7 +4,7 @@ import profilePic from '../assets/profile-pic.jpg';
 
 function Home() {
     return (
-        <div className="home">
+        <main className="home">
             <img src={profilePic} alt="Hannah Olbrich, Web Developer" className="profile-pic" />
             <h2>Junior Web Developer & Data Professional</h2>
             <p>Seeking opportunities in Manchester/Remote</p>
@@ -13,7 +13,7 @@ function Home() {
                 <Link to="/about" className="btn btn-secondary">About Me</Link>
                 <Link to="/contact" className="btn btn-secondary">Get In Touch</Link>
             </div>
-        </div>
+        </main>
     );
 }
 

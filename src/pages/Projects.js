@@ -3,23 +3,25 @@ import { solo_projects, hack_projects } from '../data/projectsData';
 
 function Projects() {
     return (
-        <div className="projects text-center">
+        <main className="projects text-center">
             <h1>My Projects</h1>
-
-            <h2>Individual Projects</h2>
-            <div className="project-grid">
+            <section>
+                <h2>Individual Projects</h2>
+                <div className="project-grid">
                 {solo_projects.map((project, index) => (
                     <ProjectCard key={index} project={project} />
                 ))}
-            </div>
-
-            <h2>Hackathon Projects</h2>
-            <div className="project-grid">
+                </div>
+            </section>
+            <section>
+                <h2>Hackathon Projects</h2>
+                <div className="project-grid">
                 {hack_projects.map((project, index) => (
                     <ProjectCard key={index} project={project} />
                 ))}
-            </div>
-        </div>
+                </div>
+            </section>
+        </main>
     );
 }
 

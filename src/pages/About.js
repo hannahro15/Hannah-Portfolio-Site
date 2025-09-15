@@ -2,7 +2,7 @@ import '../pages/About.css'
 
 function About() {
     return (
-        <div className="about">
+        <main className="about">
             <h1>About Me</h1>
             <p>I am mainly a self-taught developer originally coming from a musical background. I have gone through various online courses and bootcamps to enhance my skills.
                 My non-technical experience is in music teaching, retail, customer service, libraries and administration.
@@ -19,7 +19,7 @@ function About() {
             <h2>Hobbies & Interests</h2>
             <p>In my free time, I enjoy working on personal coding projects, playing in amateur orchestras, cooking, baking, and doing jigsaw puzzles.
             </p>
-        </div>
+        </main>
     );
 }
 

@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 function Contact() {
     return (
-        <div className="contact text-center">
+        <main className="contact text-center">
             <h1 className="text-center">Contact Me</h1>
             <p className="text-center">If you wish to contact me, please use the form below. Thanks a lot.</p>
             <Form className="contact-form" action="https://formspree.io/f/xjkeydor" method="POST">
@@ -22,7 +22,7 @@ function Contact() {
                 </Form.Group>
                 <Button className="w-60 btn-primary" type="submit">Submit form</Button>
             </Form>
-        </div>
+        </main>
     )
 };
 
