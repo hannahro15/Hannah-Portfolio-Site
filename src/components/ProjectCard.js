@@ -3,7 +3,7 @@ import './ProjectCard.css';
 function ProjectCard({ project }) {
     return (
         <div className="project-card text-center">
-            <p id='project-title'><strong>{project.title}</strong></p>
+            <h3 id='project-title'><strong>{project.title}</strong></h3>
             <p><strong>Description: </strong>{project.description}</p>
             <p><strong>Technologies: </strong>{project.technologies}</p>
             <a className="github-link" href={project.github} target="_blank" rel="noreferrer">GitHub</a>
