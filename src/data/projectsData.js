@@ -3,14 +3,14 @@ export const solo_projects = [
     {
         title: "Movies API project",
         description: 'A movies posters APi project using React and has a search filter to search movies.',
-        technologies: ["React", "JavaScript", "HTML", "CSS"],
+        technologies: ["React, ", "JavaScript, ", "HTML, ", "CSS, ", "Bootstrap"],
         github: "https://github.com/hannahro15/movies-api-project",
         demo: "https://hannahro15.github.io/movies-api-project/"
     },
     {
         title: "Personal Portfolio",
         description: "My personal portfolio site built with React showcasing my projects and information about myself and skills.",
-        technologies: ["React, ", "JavaScript, ", "HTML, ", "CSS "],
+        technologies: ["React, ", "JavaScript, ", "HTML, ", "CSS, ", "Bootstrap"],
         github: "https://github.com/hannahro15/hannah-portfolio-site",
         demo: "https://hannahro15.github.io/Hannah-Portfolio-Site/"
     },
