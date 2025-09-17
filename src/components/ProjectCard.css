@@ -27,6 +27,14 @@
     background-color: skyblue;
 }
 
+.project-card .github-link:hover {
+    background-color: gray;
+}
+
+.project-card .live-site-link:hover {
+    background-color: steelblue;
+}
+
 .project-grid {
     display: flex;
     flex-wrap: wrap;
