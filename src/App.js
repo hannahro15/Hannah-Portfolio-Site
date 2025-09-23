@@ -10,17 +10,9 @@ import backgroundImg from './assets/background-img.jpg';
 import Navbar from './components/Navbar';
 
 function App() {
-  const appStyle = {
-    backgroundImage: `url(${backgroundImg})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundAttachment: 'fixed',
-    minHeight: '100vh'
-  };
 
   return (
-    <div style={appStyle}>
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
