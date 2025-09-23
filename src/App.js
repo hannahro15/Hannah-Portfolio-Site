@@ -6,7 +6,6 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-import backgroundImg from './assets/background-img.jpg';
 import Navbar from './components/Navbar';
 
 function App() {
