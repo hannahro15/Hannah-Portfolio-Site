@@ -7,7 +7,7 @@ import Projects from './pages/projects/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import backgroundImg from './assets/background-img.jpg';
+import backgroundImg from './assets/background-img.webp';
 
 
 function App() {

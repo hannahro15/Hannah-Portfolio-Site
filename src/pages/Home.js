@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../pages/Home.css';
-import profilePic from '../assets/profile-pic.jpg';
+import profilePic from '../assets/profile-pic.webp';
 
 function Home() {
     return (
