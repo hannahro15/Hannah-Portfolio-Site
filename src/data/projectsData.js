@@ -58,5 +58,26 @@ export const hack_projects = [
         technologies: ["HTML, ", "CSS, ", "JavaScript "],
         github: "https://github.com/hannahro15/Nov24Hackathon",
         demo: "https://script-to-sound-f697c5a0720c.herokuapp.com/"
+    },
+    {
+        title: "Harmony Hub",
+        description: "An app that helps users learn to read music notes on a virtual keyboard.",
+        technologies: ["HTML, ", "CSS, ", "JavaScript "],
+        github: "https://github.com/justynath/harmony-hackers",
+        demo: "https://justynath.github.io/harmony-hackers/"
+    },
+    {
+        title: "United Events",
+        description: "An app for LGTB events around the UK",
+        technologies: ["HTML, ", "CSS, ", "JavaScript, ", "Bootstrap ", "Django"],
+        github: "https://github.com/hannahro15/July24Hackathon-United-Events",
+        demo: "https://united-events-a9a097150c85.herokuapp.com/"
+    },
+    {
+        title: "Jedi Academy",
+        description: "A site with a Star Wars theme including three games which are Worldle, Whack-a-Mole and a memory game.",
+        technologies: ["HTML, ", "CSS, ", "JavaScript, ", "Bootstrap"],
+        github: "https://github.com/stephendawsondev/jedi-academy?tab=readme-ov-file",
+        demo: "https://stephendawsondev.github.io/jedi-academy/index.html"
     }
 ];
