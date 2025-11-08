@@ -46,6 +46,13 @@ export const solo_projects = [
 
 export const hack_projects = [
     {
+        title: "Purranormal",
+        description: "A site for matching cats by swiping the cards and adding to your user profile. Built as part of a Halloween hackathon.",
+        technologies: ["HTML, ", "CSS, ", "JavaScript, ", "Bootstrap, ", "Django "],
+        github: "https://github.com/hannahro15/CI-Halloween-Hackathon-25-Oct",
+        demo: "https://purranormal-26af1e8cdfe0.herokuapp.com/"
+    },
+    {
         title: "Dating Events",
         description: "A site for dating events around the UK as part of the Love.exe hackathon.",
         technologies: ["HTML, ", "CSS, ", "Tailwind, ", "Django "],
