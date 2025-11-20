@@ -6,7 +6,7 @@ function Home() {
     return (
         <main className="home">
             <img src={profilePic} alt="Hannah Olbrich, Web Developer" className="profile-pic" />
-            <h1>Junior Software Developer</h1>
+            <h1>Full-Stack Developer</h1>
             <p><em>Passionate web developer with a musical background, delivering creative apps and websites.</em></p>
             <p>Seeking opportunities in Manchester/Remote</p>
             <div className="cta-buttons">
