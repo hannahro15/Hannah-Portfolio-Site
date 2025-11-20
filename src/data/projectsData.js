@@ -13,7 +13,7 @@ export const solo_projects = [
         image: `${process.env.PUBLIC_URL}/images/portfolio-site.webp`,
         description: "My personal portfolio site built with React showcasing my projects and information about myself and skills.",
         technologies: ["React, ", "JavaScript, ", "HTML, ", "CSS, ", "Bootstrap"],
-        github: "https://github.com/hannahro15/hannah-portfolio-site",
+        github: "https://github.com/hannahro15/Hannah-Portfolio-Site",
         demo: "https://hannahro15.github.io/Hannah-Portfolio-Site/"
     },
     {
