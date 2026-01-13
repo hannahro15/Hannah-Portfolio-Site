@@ -1,4 +1,5 @@
-import ProjectCard from './ProjectCard';
+import './Projects.css';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import { solo_projects, hack_projects } from '../../data/projectsData';
 
 function Projects() {

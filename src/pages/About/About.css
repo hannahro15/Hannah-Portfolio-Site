@@ -6,6 +6,8 @@
     line-height: 1.6;
     color: white;
     font-weight: 400;
+    flex: 1;
+    min-height: 100vh;
 }
 
 .about h1,
