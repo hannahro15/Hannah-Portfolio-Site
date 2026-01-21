@@ -5,7 +5,7 @@ function ProjectCard({ project }) {
         <div className="project-card text-center">
             <h3 id='project-title'><strong>{project.title}</strong></h3>
             {project.image && (
-                <img src={project.image} alt={`Screenshot of ${project.title}`} className="project-image" />
+                <img src={project.image} alt={`Screenshot of ${project.title}`} className="project-image" loading="lazy" />
             )}
             <p><strong>Description: </strong>{project.description}</p>
              <div className="tech-badges">
