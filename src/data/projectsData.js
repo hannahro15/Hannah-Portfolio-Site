@@ -1,12 +1,12 @@
 // Project data for the portfolio
 export const solo_projects = [
     {
-        title: "Movies API project",
-        image: `${process.env.PUBLIC_URL}/images/movies-api-project.webp`,
-        description: 'Interactive movie discovery application built with React, featuring real-time API integration and dynamic search functionality. Users can browse trending films and search by title with responsive design across all devices.',
-        technologies: ["React, ", "JavaScript, ", "HTML, ", "CSS, ", "Bootstrap"],
-        github: "https://github.com/hannahro15/movies-api-project",
-        demo: "https://hannahro15.github.io/movies-api-project/"
+        title: "Music Theory App",
+        image: "",
+        description: "Comprehensive music theory learning application with interactive lessons, activities and quizzes. Built with React for a dynamic user experience, featuring responsive design and multimedia content to enhance musical education. Used Vexflow to render musical notation.",
+        technologies: ["React, ", "JavaScript, ", "HTML, ", "CSS, ", "Bootstrap, ", "Vexflow "],
+        github: "https://github.com/hannahro15/music-theory-app",
+        demo: "https://hannahro15.github.io/music-theory-app/"
     },
     {
         title: "Personal Portfolio",
@@ -15,6 +15,14 @@ export const solo_projects = [
         technologies: ["React, ", "JavaScript, ", "HTML, ", "CSS, ", "Bootstrap"],
         github: "https://github.com/hannahro15/Hannah-Portfolio-Site",
         demo: "https://hannahro15.github.io/Hannah-Portfolio-Site/"
+    },
+    {
+        title: "Movies API project",
+        image: `${process.env.PUBLIC_URL}/images/movies-api-project.webp`,
+        description: 'Interactive movie discovery application built with React, featuring real-time API integration and dynamic search functionality. Users can browse trending films and search by title with responsive design across all devices.',
+        technologies: ["React, ", "JavaScript, ", "HTML, ", "CSS, ", "Bootstrap"],
+        github: "https://github.com/hannahro15/movies-api-project",
+        demo: "https://hannahro15.github.io/movies-api-project/"
     },
     {
         title: "Ready, Steady, Eat",
