@@ -9,6 +9,15 @@ export const solo_projects = [
         demo: "https://hannahro15.github.io/music-theory-app/"
     },
     {
+
+        title:"Classical Music Escape Room",
+        image: "",
+        description: "An engaging virtual escape room experience centered around classical music themes. Built with React and features interactive puzzles and challenges that test users' knowledge of classical composers and musical concepts in a fun, immersive environment.",
+        technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "React"],
+        github: "https://github.com/hannahro15/classical-music-themed-escape-room",
+        demo: "https://hannahro15.github.io/classical-music-themed-escape-room/"
+    },
+    {
         title: "Personal Portfolio",
         image: `${process.env.PUBLIC_URL}/images/portfolio-site.webp`,
         description: "Modern, responsive portfolio website showcasing full-stack development skills. Built with React and featuring project galleries, semantic HTML structure, and optimized performance for professional presentation.",
