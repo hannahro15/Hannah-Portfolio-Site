@@ -9,6 +9,11 @@ function ProjectCard({ project }) {
                     <em><strong>Status: </strong>{project.status}</em>
                 </p>
             )}
+            {project.placement && (
+                <p id='project-placement'>
+                    <em><strong>Placement: </strong>{project.placement}</em>
+                </p>
+            )}
             {project.image && (
                 <img src={project.image} alt={`Screenshot of ${project.title}`} className="project-image" loading="lazy" />
             )}
