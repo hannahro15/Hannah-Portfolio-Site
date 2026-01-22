@@ -5,6 +5,7 @@ export const solo_projects = [
         image: "",
         description: "Comprehensive music theory learning application with interactive lessons, activities and quizzes. Built with React for a dynamic user experience, featuring responsive design and multimedia content to enhance musical education. Used Vexflow to render musical notation.",
         technologies: ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "Vexflow"],
+        status: "In Progress",
         github: "https://github.com/hannahro15/music-theory-app",
         demo: "https://hannahro15.github.io/music-theory-app/"
     },
@@ -14,6 +15,7 @@ export const solo_projects = [
         image: "",
         description: "An engaging virtual escape room experience centered around classical music themes. Built with React and features interactive puzzles and challenges that test users' knowledge of classical composers and musical concepts in a fun, immersive environment.",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "React"],
+        status:"In Progress",
         github: "https://github.com/hannahro15/classical-music-themed-escape-room",
         demo: "https://hannahro15.github.io/classical-music-themed-escape-room/"
     },
@@ -22,6 +24,7 @@ export const solo_projects = [
         image: `${process.env.PUBLIC_URL}/images/portfolio-site.webp`,
         description: "Modern, responsive portfolio website showcasing full-stack development skills. Built with React and featuring project galleries, semantic HTML structure, and optimized performance for professional presentation.",
         technologies: ["React", "JavaScript", "HTML", "CSS", "Bootstrap"],
+        status: "Current",
         github: "https://github.com/hannahro15/Hannah-Portfolio-Site",
         demo: "https://hannahro15.github.io/Hannah-Portfolio-Site/"
     },
@@ -30,6 +33,7 @@ export const solo_projects = [
         image: `${process.env.PUBLIC_URL}/images/movies-api-project.webp`,
         description: 'Interactive movie discovery application built with React, featuring real-time API integration and dynamic search functionality. Users can browse trending films and search by title with responsive design across all devices.',
         technologies: ["React", "JavaScript", "HTML", "CSS", "Bootstrap"],
+        status: "Completed",
         github: "https://github.com/hannahro15/movies-api-project",
         demo: "https://hannahro15.github.io/movies-api-project/"
     },
@@ -38,6 +42,7 @@ export const solo_projects = [
         image: `${process.env.PUBLIC_URL}/images/ready-steady-eat.webp`,
         description: "A fake full-stack e-commerce food delivery website with secure user authentication, integrated Stripe payment processing, and comprehensive order management. Built with Django backend and responsive frontend design featuring dynamic cart functionality and secure checkout flow.",
         technologies: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Python", "Django"],
+        status: "Completed",
         github: "https://github.com/hannahro15/ready-steady-eat",
         demo: "https://ready-steady-eat-8febfd678f9f.herokuapp.com/"
     },
@@ -46,6 +51,7 @@ export const solo_projects = [
         image: `${process.env.PUBLIC_URL}/images/uk-rides-reviews-hub.webp`,
         description: "Theme park review platform for UK theme park rides. Features user authentication, MongoDB database integration, and dynamic content management. Built with Flask backend enabling visitors to share and discover ride experiences.",
         technologies: ["HTML", "CSS", "Bootstrap", "Python", "Flask", "MongoDB"],
+        status: "Completed",
         github: "https://github.com/hannahro15/Theme-park-ride-reviews-site",
         demo: "https://theme-park-reviews-website-f1f235eaa19d.herokuapp.com/"
     },
@@ -54,6 +60,7 @@ export const solo_projects = [
         image: `${process.env.PUBLIC_URL}/images/manchester-tourist.webp`,
         description: "Interactive tourism website featuring local attractions and an engaging memory game. Combines informational content with gamification to enhance user engagement and showcase Manchester's key destinations with responsive design.",
         technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+        status: "Completed",
         github: "https://github.com/hannahro15/Manchester-Tourist-Project",
         demo: "https://hannahro15.github.io/Manchester-Tourist-Project/"
     },
@@ -62,6 +69,7 @@ export const solo_projects = [
         image: `${process.env.PUBLIC_URL}/images/manchester-cattery.webp`,
         description: "A fake cattery business website showcasing modern web design principles with responsive layouts, contact form integration, and service showcase functionality. Demonstrates clean UI/UX design and cross-device compatibility using Bootstrap framework.",
         technologies: ["HTML", "CSS", "Bootstrap"],
+        status: "Completed",
         github: "https://github.com/hannahro15/Cattery-project",
         demo: "https://hannahro15.github.io/Cattery-project/"
     }

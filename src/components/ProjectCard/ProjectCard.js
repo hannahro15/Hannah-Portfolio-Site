@@ -4,6 +4,7 @@ function ProjectCard({ project }) {
     return (
         <div className="project-card text-center">
             <h3 id='project-title'><strong>{project.title}</strong></h3>
+            <p id='project-status'><em><strong>Status: </strong>{project.status}</em></p>
             {project.image && (
                 <img src={project.image} alt={`Screenshot of ${project.title}`} className="project-image" loading="lazy" />
             )}
