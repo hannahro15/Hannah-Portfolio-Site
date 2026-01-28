@@ -5,7 +5,7 @@ import { solo_projects, hack_projects } from '../../data/projectsData';
 function Projects() {
     return (
         <main className="projects text-center">
-            <h1>My Projects</h1>
+            <h1 id="projects-title">My Projects</h1>
             <section>
                 <h2>Individual Projects</h2>
                 <div className="project-grid">
