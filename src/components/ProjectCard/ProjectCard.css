@@ -1,5 +1,5 @@
 .project-card {
-    padding: 16px;
+    padding: 10px;
     background-color: #fff;
     color: black;
     border-radius: 8px;
@@ -62,4 +62,15 @@
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+    .projects-grid {
+        padding-left: 4px;
+        padding-right: 4px;
+        gap: 8px;
+    }
+    .project-card {
+        margin: 8px 2px;
+    }
 }

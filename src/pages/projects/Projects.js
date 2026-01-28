@@ -8,7 +8,7 @@ function Projects() {
             <h1 id="projects-title">My Projects</h1>
             <section>
                 <h2>Individual Projects</h2>
-                <div className="project-grid">
+                <div className="projects-grid">
                 {solo_projects.map((project, index) => (
                     <ProjectCard key={index} project={project} />
                 ))}
