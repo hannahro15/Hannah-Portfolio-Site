@@ -5,7 +5,7 @@ import profilePic from '../../assets/profile-pic.webp';
 function Home() {
     return (
         <main className="home">
-            <img src={profilePic} alt="Hannah Olbrich, Web Developer" fetchpriority="high" className="profile-pic" />
+            <img src={profilePic} alt="Hannah Olbrich, Web Developer" fetchPriority="high" className="profile-pic" />
             <h1>Full-Stack Developer</h1>
             <p><em>Passionate web developer with a musical background, delivering creative apps and websites.</em></p>
             <p>Seeking opportunities in Manchester/Remote</p>
