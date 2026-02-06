@@ -5,9 +5,9 @@ import profilePic from '../../assets/profile-pic.webp';
 
 function Home() {
     useEffect(() => {
-        document.title = 'Home - Hannah Olbrich';
+        document.title = 'Hannah Olbrich - Full Stack Developer';
         }, []);
-        
+
     return (
         <main className="home">
             <img src={profilePic} alt="Hannah Olbrich, Web Developer" fetchPriority="high" className="profile-pic" />

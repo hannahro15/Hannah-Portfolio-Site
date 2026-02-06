@@ -1,8 +1,13 @@
+import { useEffect } from 'react';
 import './Contact.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 function Contact() {
+    useEffect(() => {
+        document.title = 'Contact - Hannah Olbrich';
+        }, []);
+
     return (
         <main className="contact text-center">
             <h1 className="text-center">Contact Me</h1>
