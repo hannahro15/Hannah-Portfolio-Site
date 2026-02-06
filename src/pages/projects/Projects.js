@@ -7,7 +7,7 @@ function Projects() {
     useEffect(() => {
         document.title = 'Projects - Hannah Olbrich';
         }, []);
-        
+
     return (
         <main className="projects text-center">
             <h1 id="projects-title">My Projects</h1>
@@ -21,7 +21,7 @@ function Projects() {
             </section>
             <section>
                 <h2>Hackathon Projects</h2>
-                <div className="project-grid">
+                <div className="projects-grid">
                 {hack_projects.map((project, index) => (
                     <ProjectCard key={index} project={project} />
                 ))}
