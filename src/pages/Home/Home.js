@@ -1,8 +1,13 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import profilePic from '../../assets/profile-pic.webp';
 
 function Home() {
+    useEffect(() => {
+        document.title = 'Home - Hannah Olbrich';
+        }, []);
+        
     return (
         <main className="home">
             <img src={profilePic} alt="Hannah Olbrich, Web Developer" fetchPriority="high" className="profile-pic" />
