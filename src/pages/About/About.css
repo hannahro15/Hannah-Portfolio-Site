@@ -1,0 +1,54 @@
+.about-container {
+        background: #f9f9f9;
+        padding: 2rem;
+        max-width: 800px;
+        margin: 2.5rem auto 2.5rem auto;
+        border-radius: 12px;
+        font-family: Arial, sans-serif;
+        color: black;
+        font-weight: 400;
+        min-height: 100vh;
+}
+
+/* Responsive margins and padding */
+@media (max-width: 900px) {
+    .about-container {
+        margin: 1.5rem 1rem;
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-container {
+        margin: 0.5rem 0.25rem;
+        padding: 1rem 0.5rem;
+    }
+}
+
+#about-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.about-heading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.about-container h1,
+.about-container h2,
+.about-container p,
+.about-container hr {
+        margin-bottom: 1.25rem;
+}
+
+@media (max-width: 600px) {
+    .about-container h1,
+    .about-container h2,
+    .about-container p,
+    .about-container hr {
+        margin-bottom: 0.75rem;
+    }
+}
