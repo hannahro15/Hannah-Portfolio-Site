@@ -1,8 +1,6 @@
-name: Create Project Issues from Drafts
+name: Create Back to Top Issue
 
 on:
-  push:
-    branches: ["copilot/create-project-issues"]
   workflow_dispatch:
 
 permissions:
@@ -10,54 +8,27 @@ permissions:
   contents: read
 
 jobs:
-  create-issues:
+  create-issue:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create missing issues from draft files
+      - name: Create Back to Top issue if not already present
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
         run: |
           set -e
+          TITLE='Feature: Add a "Back to Top" Button on the Projects Page'
 
-          create_if_missing() {
-            local title="$1"
-            local body_file="$2"
+          existing=$(gh issue list --repo "$REPO" --state all --limit 100 --json title \
+            --jq --arg t "$TITLE" '.[] | select(.title == $t) | .title')
 
-            # Check if an issue with this title already exists (open or closed)
-            existing=$(gh issue list --repo "$REPO" --state all --limit 100 --json title \
-              --jq --arg t "$title" '.[] | select(.title == $t) | .title')
-
-            if [ -n "$existing" ]; then
-              echo "SKIP — issue already exists: $title"
-            else
-              echo "CREATE — $title"
-              # Strip the first line (# Title) and the Labels line from the body
-              body=$(tail -n +3 "$body_file")
-              gh issue create --repo "$REPO" --title "$title" --body "$body"
-              echo "Created: $title"
-            fi
-          }
-
-          create_if_missing \
-            "Bug: Fix Duplicate HTML IDs in ProjectCard Component" \
-            ".github/ISSUE_DRAFTS/01-fix-duplicate-ids-in-project-card.md"
-
-          create_if_missing \
-            "Feature: Add CV / Resume Download Button to the Home Page" \
-            ".github/ISSUE_DRAFTS/05-add-cv-download-button.md"
-
-          create_if_missing \
-            "Feature: Add Work Experience / Education Timeline to the About Page" \
-            ".github/ISSUE_DRAFTS/06-add-experience-education-timeline.md"
-
-          create_if_missing \
-            'Feature: Add a "Back to Top" Button on the Projects Page' \
-            ".github/ISSUE_DRAFTS/08-add-back-to-top-button.md"
-
-          create_if_missing \
-            "Feature: Add Dark Mode Toggle" \
-            ".github/ISSUE_DRAFTS/10-add-dark-mode-toggle.md"
+          if [ -n "$existing" ]; then
+            echo "Issue already exists — skipping."
+          else
+            body=$(tail -n +3 ".github/ISSUE_DRAFTS/08-add-back-to-top-button.md")
+            gh issue create --repo "$REPO" --title "$TITLE" --body "$body"
+            echo "Issue created."
+          fi
