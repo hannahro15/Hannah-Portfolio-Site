@@ -49,3 +49,28 @@ This site is deployed manually to GitHub Pages with:
 ```bash
 npm run deploy
 ```
+
+## ✅ Release Checklist
+
+### If you are working directly on `main`
+```bash
+git add -A
+git commit -m "your message"
+git push origin main
+npm run deploy
+```
+
+### If you are working on a feature branch
+```bash
+# on your branch
+git add -A
+git commit -m "your message"
+git push -u origin your-branch
+
+# open PR, merge to main, then:
+git checkout main
+git pull origin main
+npm run deploy
+```
+
+Deploy after `main` is up to date so the live site matches the latest merged code.
