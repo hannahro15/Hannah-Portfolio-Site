@@ -44,4 +44,8 @@ npm start
 - `npm run deploy` - Deploys to GitHub Pages
 
 ## 📦 Deployment
-This site is automatically deployed to GitHub Pages using GitHub Actions when changes are pushed to the main branch.
+This site is deployed manually to GitHub Pages with:
+
+```bash
+npm run deploy
+```
