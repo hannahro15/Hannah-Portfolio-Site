@@ -1,17 +1,24 @@
-# Hannah Portfolio Site
+# Hannah's Portfolio Site
 
-A personal portfolio website built with React showcasing my projects and experience.
+A personal portfolio website built with React, designed to highlight my web development skills, showcase selected projects with detailed descriptions and visuals, and provide information about my background and ways to contact me.
 
-## 🚀 Live Demo
 Visit the live site: [https://hannahro15.github.io/Hannah-Portfolio-Site](https://hannahro15.github.io/Hannah-Portfolio-Site)
 
-## 🛠️ Built With
+
+# Technologies Used
 - React 19
 - React Router
 - Bootstrap 5
 - CSS3
 
-## 📁 Project Structure
+# ✨ Features
+- Responsive design for desktop and mobile
+- Project showcase with images and descriptions
+- About and Contact pages
+- Easy navigation with Navbar and Footer
+- Deployed to GitHub Pages
+
+# 📁 Project Structure
 - `/src/components/` - Reusable React components
 - `/src/pages/` - Main page components (Home, About, Projects, Contact)
 - `/src/assets/` - Images and static assets
