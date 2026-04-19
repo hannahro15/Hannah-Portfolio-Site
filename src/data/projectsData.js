@@ -10,6 +10,15 @@ export const solo_projects = [
         demo: "https://hannahro15.github.io/music-theory-app/"
     },
     {
+        title: "Musical Match Saga",
+        image: `${process.env.PUBLIC_URL}/images/musical-match-saga.png`,
+        description: "A fun and addictive music-themed match-3 puzzle game built with JavaScript, HTML, and CSS. Players swap adjacent musical notes to create matches of three or more, progressing through levels with increasing difficulty. Features vibrant graphics, engaging sound effects, and responsive design for an enjoyable gaming experience across devices.",
+        technologies: ["JavaScript", "HTML", "CSS"],
+        status: "In Progress",
+        github: "https://github.com/hannahro15/Musical-Themed-Candy-Crush",
+        demo: "https://hannahro15.github.io/Musical-Themed-Candy-Crush/"
+    },
+    {
 
         title:"Classical Music Escape Room",
         image: `${process.env.PUBLIC_URL}/images/escape-room.webp`,
