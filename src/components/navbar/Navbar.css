@@ -1,14 +1,14 @@
 .navbar {
-    padding: 1rem !important;
-    background-color: lightgrey !important;
+    padding: 1rem;
+    background-color: lightgrey;
 }
 
 .navbar ul {
-    display: flex !important;
-    justify-content: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    list-style: none !important;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
     width: 100%;
 }
 
@@ -25,7 +25,8 @@
 }
 
 .navbar a:hover {
-    background-color: #575757;
+    background-color: black;
+    color: white;
 }
 
 .navbar a.active {
