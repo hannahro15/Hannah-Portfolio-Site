@@ -91,7 +91,7 @@ export const hack_projects = [
         description: "Interactive cat matching application developed during a Halloween-themed hackathon. Features swipe functionality, user profiles, and Django backend integration. Demonstrates rapid development skills and creative problem-solving under time constraints.",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Django"],
         placement: "2nd Place",
-        github: "https://github.com/hannahro15/CI-Halloween-Hackathon-25-Oct",
+        github: "https://github.com/hannahro15/CI-Halloween-Hackathon-25",
         demo: "https://purranormal-26af1e8cdfe0.herokuapp.com/"
     },
     {
