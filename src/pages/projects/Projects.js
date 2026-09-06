@@ -9,7 +9,7 @@ function Projects() {
         }, []);
 
     return (
-        <main className="projects text-center">
+        <main className="text-center">
             <h1 id="projects-title">My Projects</h1>
             <section>
                 <h2>Individual Projects</h2>
