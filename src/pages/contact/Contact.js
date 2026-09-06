@@ -25,7 +25,7 @@ function Contact() {
                     <Form.Label>Message</Form.Label>
                     <Form.Control as="textarea" rows={5} name="message" placeholder="Please enter your message here" required />
                 </Form.Group>
-                <Button className="w-60 btn-primary" type="submit" aria-label="Submit contact form">Submit form</Button>
+                <Button className="btn-primary" type="submit" aria-label="Submit contact form">Submit form</Button>
             </Form>
         </main>
     )

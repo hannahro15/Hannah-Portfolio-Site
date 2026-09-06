@@ -35,14 +35,6 @@
     background-color: steelblue;
 }
 
-.project-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 16px;
-    gap: 16px;
-}
-
 .project-card h3 {
     font-size: 1.5em;
     margin-bottom: 8px;
