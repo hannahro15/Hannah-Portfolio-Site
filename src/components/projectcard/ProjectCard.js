@@ -3,14 +3,14 @@ import './ProjectCard.css';
 function ProjectCard({ project }) {
     return (
         <div className="project-card text-center">
-            <h3 id='project-title'><strong>{project.title}</strong></h3>
+            <h3 className='project-title'><strong>{project.title}</strong></h3>
             {project.status && (
-                <p id='project-status'>
+                <p className='project-status'>
                     <em><strong>Status: </strong>{project.status}</em>
                 </p>
             )}
             {project.placement && (
-                <p id='project-placement'>
+                <p className='project-placement'>
                     <em><strong>Placement: </strong>{project.placement}</em>
                 </p>
             )}
@@ -18,7 +18,7 @@ function ProjectCard({ project }) {
                 <img src={project.image} alt={`Screenshot of ${project.title}`} className="project-image" loading="lazy" />
             )}
             <p><strong>Description: </strong>{project.description}</p>
-             <div className="tech-badges">
+             <div>
                     {project.technologies.map((tech, index) => (
                         <span key={index} className="badge bg-secondary me-2 mb-2">
                             {tech.replace(',', '').trim()}
