@@ -11,7 +11,7 @@ function About() {
         <main className="about-container">
             <h1 id="about-title">About Me</h1>
             <p>
-                I am mainly a self-taught developer originally coming from a musical background. I have completed various online coding courses, bootcamps, and certifications over the last few years to enhance my skills. I completed a Level 5 Web Development Diploma with the Code Institute between Jan 2024 and Dec 2024, and was awarded a pass in Jan 2025.
+                I am mainly a self-taught developer originally coming from a musical background. I have completed various online coding courses, bootcamps, and certifications over the last few years to enhance my skills. I completed a Level 5 Web Development Diploma with the Code Institute between Jan 2024 and Dec 2024, and was awarded a pass in Jan 2025. I also passed the AWS Certified Cloud Practitioner exam in Sep 2026.
                 My non-technical experience is in music teaching, retail, customer service, libraries, and administration.
             </p>
             <p>
