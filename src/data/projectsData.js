@@ -49,7 +49,7 @@ export const solo_projects = [
     {
         title: "Ready, Steady, Eat",
         image: `${process.env.PUBLIC_URL}/images/ready-steady-eat.webp`,
-        description: "A fake full-stack e-commerce food delivery website with secure user authentication, integrated Stripe payment processing, and comprehensive order management. Built with Django backend and responsive frontend design featuring dynamic cart functionality and secure checkout flow.",
+        description: "A full-stack e-commerce food delivery demo with secure user authentication, integrated Stripe payment processing (test mode only — please don't enter real card details), and comprehensive order management. Built with Django backend and responsive frontend design featuring dynamic cart functionality and secure checkout flow.",
         technologies: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Python", "Django"],
         status: "Completed",
         github: "https://github.com/hannahro15/ready-steady-eat",
@@ -76,7 +76,7 @@ export const solo_projects = [
     {
         title: "Manchester Cattery",
         image: `${process.env.PUBLIC_URL}/images/manchester-cattery.webp`,
-        description: "A fake cattery business website showcasing modern web design principles with responsive layouts, contact form integration, and service showcase functionality. Demonstrates clean UI/UX design and cross-device compatibility using Bootstrap framework.",
+        description: "A mock cattery business website showcasing modern web design principles with responsive layouts, contact form integration, and service showcase functionality. Demonstrates clean UI/UX design and cross-device compatibility using Bootstrap framework.",
         technologies: ["HTML", "CSS", "Bootstrap"],
         status: "Completed",
         github: "https://github.com/hannahro15/Cattery-project",
