@@ -3,7 +3,7 @@ export const solo_projects = [
     {
         title: "Music Theory App",
         image: `${process.env.PUBLIC_URL}/images/placeholder-image-musictheory.png`,
-        description: "Comprehensive music theory learning application with interactive lessons, activities and quizzes. Built with React for a dynamic user experience, featuring responsive design and multimedia content to enhance musical education. Used Vexflow to render musical notation.",
+        description: "Comprehensive music theory learning application with interactive lessons, activities and quizzes. Built with React for a dynamic user experience, featuring responsive design and multimedia content to enhance musical education. Used Vexflow to render musical notation, with AI assistance for some of the Vexflow notation and a few other parts.",
         technologies: ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "Vexflow"],
         status: "In Progress",
         github: "https://github.com/hannahro15/music-theory-app",
