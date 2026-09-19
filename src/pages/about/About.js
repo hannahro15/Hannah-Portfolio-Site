@@ -15,7 +15,7 @@ function About() {
                 My non-technical experience is in music teaching, retail, customer service, libraries, and administration.
             </p>
             <p>
-                I thrive in Agile teams and love contributing to all stages of the development lifecycle. I am especially drawn to visual and interactive projects, and my strong spatial skills which I have gained through my love of jigsaw puzzles, which help me see patterns and solve problems creatively. My training as a musician has given me excellent attention to detail, which I bring to my development work. I have participated in six Code Institute hackathons (four as a student and two as an alumni), serving as Scrum Master in four of them, which has further strengthened my teamwork and leadership abilities.
+                I thrive in Agile teams and love contributing to all stages of the development lifecycle. I am especially drawn to visual and interactive projects, and my strong spatial skills, which I have gained through my love of jigsaw puzzles, help me see patterns and solve problems creatively. My training as a musician has given me excellent attention to detail, which I bring to my development work. I have participated in six Code Institute hackathons (four as a student and two as an alumni), serving as Scrum Master in four of them, which has further strengthened my teamwork and leadership abilities.
             </p>
             <hr></hr>
             <h2 className="about-heading">Technical Skills</h2>
