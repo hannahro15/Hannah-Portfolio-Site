@@ -11,7 +11,7 @@ function Footer() {
                     <i className="fab fa-github"></i>
                 </a>
             </div>
-            <p>&copy; 2026 Hannah Olbrich. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Hannah Olbrich. All rights reserved.</p>
         </footer>
     );
 }
