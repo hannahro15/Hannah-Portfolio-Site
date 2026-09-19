@@ -14,7 +14,6 @@
 .home p {
     font-size: 20px;
     color: white;
-
 }
 
 .profile-pic {
@@ -51,4 +50,14 @@
 
 .btn:hover {
     background-color: #5a6268;
+}
+
+@media (max-width: 600px) {
+    .home h1 {
+        font-size: 36px;
+    }
+
+    .home p {
+        font-size: 16px;
+    }
 }
