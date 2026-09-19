@@ -50,7 +50,7 @@ export const solo_projects = [
         title: "Ready, Steady, Eat",
         image: `${process.env.PUBLIC_URL}/images/ready-steady-eat.webp`,
         description: "A full-stack e-commerce food delivery demo with secure user authentication, integrated Stripe payment processing (test mode only — please don't enter real card details), and comprehensive order management. Built with Django backend and responsive frontend design featuring dynamic cart functionality and secure checkout flow.",
-        technologies: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Python", "Django"],
+        technologies: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Python", "Django", "PostgreSQL", "AWS"],
         status: "Completed",
         github: "https://github.com/hannahro15/ready-steady-eat",
         demo: "https://ready-steady-eat-8febfd678f9f.herokuapp.com/"
