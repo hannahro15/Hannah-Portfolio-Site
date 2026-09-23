@@ -10,8 +10,8 @@ function Contact() {
 
     return (
         <main className="contact text-center">
-            <h1 className="text-center">Contact Me</h1>
-            <p className="text-center">If you wish to contact me, please use the form below. Thanks a lot.</p>
+            <h1>Contact Me</h1>
+            <p>If you wish to contact me, please use the form below. Thanks a lot.</p>
             <Form className="contact-form" action="https://formspree.io/f/xjkeydor" method="POST">
                 <Form.Group className="mb-3" controlId="name" aria-label="Enter your full name">
                     <Form.Label>Full Name</Form.Label>
