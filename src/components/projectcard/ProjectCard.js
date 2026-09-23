@@ -21,7 +21,7 @@ function ProjectCard({ project }) {
              <div>
                     {project.technologies.map((tech, index) => (
                         <span key={index} className="badge bg-secondary me-2 mb-2">
-                            {tech.replace(',', '').trim()}
+                            {tech}
                         </span>
                     ))}
             </div>   
