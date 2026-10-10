@@ -25,9 +25,9 @@ function ProjectCard({ project }) {
                         </span>
                     ))}
             </div>   
-            <a className="github-link" href={project.github} target="_blank" rel="noreferrer">GitHub</a>
+            <a className="github-link" href={project.github} target="_blank" rel=" noopener noreferrer">GitHub</a>
             <br />
-            <a className="live-site-link" href={project.demo} target="_blank" rel="noreferrer">Live Site</a>
+            <a className="live-site-link" href={project.demo} target="_blank" rel="noopener noreferrer">Live Site</a>
         </div >
     );
 }
