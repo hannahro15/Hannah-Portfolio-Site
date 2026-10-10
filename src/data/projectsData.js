@@ -23,7 +23,7 @@ export const solo_projects = [
         title:"Classical Music Escape Room",
         image: `${process.env.PUBLIC_URL}/images/escape-room.webp`,
         description: "An engaging virtual escape room experience centered around classical music themes. Built with React and features interactive puzzles and challenges that test users' knowledge of classical composers and musical concepts in a fun, immersive environment.",
-        technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "React"],
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
         status:"In Progress",
         github: "https://github.com/hannahro15/classical-music-themed-escape-room",
         demo: "https://hannahro15.github.io/classical-music-themed-escape-room/"
