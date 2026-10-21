@@ -24,7 +24,8 @@
     padding: 10px 15px;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.navbar a:focus-visible {
     background-color: black;
     color: white;
 }

@@ -24,3 +24,9 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
+
+/* Outline only: setting box-shadow here would replace the shadows that components already use, such as Bootstrap's form focus ring */
+:focus-visible {
+    outline: 3px solid black;
+    outline-offset: 3px;
+}
