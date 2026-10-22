@@ -57,27 +57,7 @@ This site is deployed manually to GitHub Pages with:
 npm run deploy
 ```
 
-## ✅ Release Checklist
+## 🔒 Personal Project
+This is my personal portfolio, so I'm not accepting contributions. Pull requests will not be merged and issues are only used to track my own work.
 
-### If you are working directly on `main`
-```bash
-git add -A
-git commit -m "your message"
-git push origin main
-npm run deploy
-```
-
-### If you are working on a feature branch
-```bash
-# on your branch
-git add -A
-git commit -m "your message"
-git push -u origin your-branch
-
-# open PR, merge to main, then:
-git checkout main
-git pull origin main
-npm run deploy
-```
-
-Deploy after `main` is up to date so the live site matches the latest merged code.
+The code, content and images are © Hannah Olbrich. All rights reserved. Please don't copy or reuse them without permission.
