@@ -9,3 +9,8 @@
     max-width: 800px;
     margin: 0 auto;
 }
+
+.privacy-note a {
+    color: white;
+    text-decoration: underline;
+}

@@ -27,6 +27,10 @@ function Contact() {
                 </Form.Group>
                 <Button className="btn-primary" type="submit">Submit form</Button>
             </Form>
+            <p className="privacy-note">
+                Your message is sent via Formspree and only used to reply to you.
+                See <a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Formspree's privacy policy</a>.
+            </p>
         </main>
     )
 };
