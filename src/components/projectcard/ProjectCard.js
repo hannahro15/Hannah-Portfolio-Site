@@ -19,8 +19,8 @@ function ProjectCard({ project }) {
             )}
             <p><strong>Description: </strong>{project.description}</p>
              <div>
-                    {project.technologies.map((tech, index) => (
-                        <span key={index} className="badge bg-secondary me-2 mb-2">
+                    {project.technologies.map((tech) => (
+                        <span key={tech} className="badge bg-secondary me-2 mb-2">
                             {tech}
                         </span>
                     ))}

@@ -14,16 +14,16 @@ function Projects() {
             <section>
                 <h2>Individual Projects</h2>
                 <div className="projects-grid">
-                {solo_projects.map((project, index) => (
-                    <ProjectCard key={index} project={project} />
+                {solo_projects.map((project) => (
+                    <ProjectCard key={project.id} project={project} />
                 ))}
                 </div>
             </section>
             <section>
                 <h2>Hackathon Projects</h2>
                 <div className="projects-grid">
-                {hack_projects.map((project, index) => (
-                    <ProjectCard key={index} project={project} />
+                {hack_projects.map((project) => (
+                    <ProjectCard key={project.id} project={project} />
                 ))}
                 </div>
             </section>
