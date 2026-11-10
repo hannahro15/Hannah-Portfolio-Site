@@ -9,6 +9,11 @@ function ProjectCard({ project }) {
                     <em><strong>Status: </strong>{project.status}</em>
                 </p>
             )}
+            {project.role && (
+                <p className='project-role'>
+                    <em><strong>Role: </strong>{project.role}</em>
+                </p>
+            )}
             {project.placement && (
                 <p className='project-placement'>
                     <em><strong>Placement: </strong>{project.placement}</em>

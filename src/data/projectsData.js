@@ -134,7 +134,6 @@ export const hack_projects = [
         description: "Interactive music education application combining technical development with musical expertise. Developed during a classical music hackathon, featuring virtual keyboard functionality for learning music notation and bridging my musical background with web development skills.",
         technologies: ["HTML", "CSS", "JavaScript"],
         role: "Participant",
-        placement: "Participant",
         github: "https://github.com/justynath/harmony-hackers",
         demo: "https://justynath.github.io/harmony-hackers/"
     },
@@ -156,7 +155,6 @@ export const hack_projects = [
         description: "Star Wars-themed gaming platform featuring three interactive games: Wordle, Whack-a-Mole, and memory challenges. Collaborative hackathon project showcasing JavaScript game development, responsive design, and team coordination under tight deadlines.",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         role: "Participant",
-        placement: "Participant",
         github: "https://github.com/stephendawsondev/jedi-academy?tab=readme-ov-file",
         demo: "https://stephendawsondev.github.io/jedi-academy/index.html"
     }
