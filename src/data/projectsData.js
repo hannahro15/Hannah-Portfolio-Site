@@ -16,8 +16,8 @@ export const solo_projects = [
         image: `${process.env.PUBLIC_URL}/images/musical-match-saga.png`,
         description: "A fun and addictive music-themed match-3 puzzle game built with JavaScript, HTML, and CSS with AI assistance. Players swap adjacent musical notes to create matches of three or more, progressing through levels with increasing difficulty. Features vibrant graphics, engaging sound effects, and responsive design for an enjoyable gaming experience across devices. The game logic is covered by a Jest test suite that runs automatically with GitHub Actions, and the game respects the reduced-motion setting.",
         technologies: ["JavaScript", "HTML", "CSS", "Jest", "ESLint", "GitHub Actions"],
-        github: "https://github.com/hannahro15/Musical-Themed-Candy-Crush",
-        demo: "https://hannahro15.github.io/Musical-Themed-Candy-Crush/"
+        github: "https://github.com/hannahro15/Musical-Match-Saga",
+        demo: "https://hannahro15.github.io/Musical-Match-Saga/"
     },
     {
 
