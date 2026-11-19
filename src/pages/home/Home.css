@@ -16,6 +16,11 @@
     color: white;
 }
 
+.home .subtitle {
+    font-size: 28px;
+    font-weight: 500;
+}
+
 .profile-pic {
     border-radius: 50%;
     width: 250px;
@@ -59,5 +64,9 @@
 
     .home p {
         font-size: 16px;
+    }
+    
+    .home .subtitle {
+        font-size: 22px;
     }
 }
