@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './Projects.css';
 import ProjectCard from '../../components/projectcard/ProjectCard';
-import { solo_projects, hack_projects } from '../../data/projectsData';
+import { solo_projects, open_source_projects, hack_projects } from '../../data/projectsData';
 
 function Projects() {
     useEffect(() => {
@@ -15,6 +15,15 @@ function Projects() {
                 <h2>Individual Projects</h2>
                 <div className="projects-grid">
                 {solo_projects.map((project) => (
+                    <ProjectCard key={project.id} project={project} />
+                ))}
+                </div>
+            </section>
+            <section>
+                <h2>Open Source Projects</h2>
+                <p className="section-intro">Projects I maintain in the open. Contributions are welcome; look for issues labelled good first issue.</p>
+                <div className="projects-grid">
+                {open_source_projects.map((project) => (
                     <ProjectCard key={project.id} project={project} />
                 ))}
                 </div>

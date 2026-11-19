@@ -11,26 +11,6 @@ export const solo_projects = [
         demo: "https://hannahro15.github.io/music-theory-app/"
     },
     {
-        id: "musical_match_saga",
-        title: "Musical Match Saga",
-        image: `${process.env.PUBLIC_URL}/images/musical-match-saga.png`,
-        description: "A fun and addictive music-themed match-3 puzzle game built with JavaScript, HTML, and CSS with AI assistance. Players swap adjacent musical notes to create matches of three or more, progressing through levels with increasing difficulty. Features vibrant graphics, engaging sound effects, and responsive design for an enjoyable gaming experience across devices. The game logic is covered by a Jest test suite that runs automatically with GitHub Actions, and the game respects the reduced-motion setting.",
-        technologies: ["JavaScript", "HTML", "CSS", "Jest", "ESLint", "GitHub Actions"],
-        github: "https://github.com/hannahro15/Musical-Match-Saga",
-        demo: "https://hannahro15.github.io/Musical-Match-Saga/"
-    },
-    {
-
-        id: "classical_music_escape_room",
-        title:"Classical Music Escape Room",
-        image: `${process.env.PUBLIC_URL}/images/escape-room.webp`,
-        description: "An engaging virtual escape room experience centered around classical music themes. Built with React and features interactive puzzles and challenges that test users' knowledge of classical composers and musical concepts in a fun, immersive environment. All room images were generated with Google Gemini.",
-        technologies: ["HTML", "CSS", "JavaScript", "React", "React Router", "Vite"],
-        status:"In Progress",
-        github: "https://github.com/hannahro15/classical-music-themed-escape-room",
-        demo: "https://hannahro15.github.io/classical-music-themed-escape-room/"
-    },
-    {
         id: "personal_portfolio",
         title: "Personal Portfolio",
         image: `${process.env.PUBLIC_URL}/images/portfolio-site.webp`,
@@ -150,5 +130,29 @@ export const hack_projects = [
         role: "Participant",
         github: "https://github.com/stephendawsondev/jedi-academy?tab=readme-ov-file",
         demo: "https://stephendawsondev.github.io/jedi-academy/index.html"
+    }
+];
+
+export const open_source_projects = [
+    {
+        id: "musical_match_saga",
+        title: "Musical Match Saga",
+        role: "Creator and Maintainer",
+        image: `${process.env.PUBLIC_URL}/images/musical-match-saga.png`,
+        description: "A fun and addictive music-themed match-3 puzzle game built with JavaScript, HTML, and CSS with AI assistance. Players swap adjacent musical notes to create matches of three or more, progressing through levels with increasing difficulty. Features vibrant graphics, engaging sound effects, and responsive design for an enjoyable gaming experience across devices. The game logic is covered by a Jest test suite that runs automatically with GitHub Actions, and the game respects the reduced-motion setting. Started in December 2025 and made open source in November 2026 under the MIT licence, and has since merged pull requests from other developers.",
+        technologies: ["JavaScript", "HTML", "CSS", "Jest", "ESLint", "GitHub Actions"],
+        github: "https://github.com/hannahro15/Musical-Match-Saga",
+        demo: "https://hannahro15.github.io/Musical-Match-Saga/"
+    },
+    {
+        id: "classical_music_escape_room",
+        title:"Classical Music Escape Room",
+        role: "Creator and Maintainer",
+        image: `${process.env.PUBLIC_URL}/images/escape-room.webp`,
+        description: "An engaging virtual escape room experience centered around classical music themes. Built with React and features interactive puzzles and challenges that test users' knowledge of classical composers and musical concepts in a fun, immersive environment. All room images were generated with Google Gemini. Started in November 2025 and made open source in November 2026 under the MIT licence, with good first issues for new contributors.",
+        technologies: ["HTML", "CSS", "JavaScript", "React", "React Router", "Vite"],
+        status: "In Progress",
+        github: "https://github.com/hannahro15/classical-music-themed-escape-room",
+        demo: "https://hannahro15.github.io/classical-music-themed-escape-room/"
     }
 ];
