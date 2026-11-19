@@ -20,18 +20,18 @@ function Projects() {
                 </div>
             </section>
             <section>
-                <h2>Open Source Projects</h2>
-                <p className="section-intro">Projects I maintain in the open. Contributions are welcome; look for issues labelled good first issue.</p>
+                <h2>Hackathon Projects</h2>
                 <div className="projects-grid">
-                {open_source_projects.map((project) => (
+                {hack_projects.map((project) => (
                     <ProjectCard key={project.id} project={project} />
                 ))}
                 </div>
             </section>
             <section>
-                <h2>Hackathon Projects</h2>
+                <h2>Open Source Projects</h2>
+                <p className="section-intro">Projects I maintain in the open. Contributions are welcome; look for issues labelled good first issue or help wanted.</p>
                 <div className="projects-grid">
-                {hack_projects.map((project) => (
+                {open_source_projects.map((project) => (
                     <ProjectCard key={project.id} project={project} />
                 ))}
                 </div>
