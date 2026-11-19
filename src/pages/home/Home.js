@@ -10,10 +10,11 @@ function Home() {
 
     return (
         <main className="home">
-            <img src={profilePic} alt="Hannah Olbrich, Web Developer" fetchPriority="high" className="profile-pic" />
-            <h1>Full-Stack Developer</h1>
-            <p><em>Passionate web developer with a musical background, delivering creative apps and websites.</em></p>
-            <p>Seeking opportunities in Manchester/Remote</p>
+            <img src={profilePic} alt="Photo of Hannah Olbrich" fetchPriority="high" className="profile-pic" />
+            <h1>Hannah Olbrich</h1>
+            <p className="subtitle">Full-Stack Developer</p>
+            <p><em>I build web apps with React, Python and Django, bringing a musician's attention to detail.</em></p>
+            <p>Looking for junior developer roles in Manchester or remote.</p>
             <div className="cta-buttons">
                 <Link to="/projects" className="btn btn-secondary">View My Projects</Link>
                 <Link to="/about" className="btn btn-secondary">About Me</Link>
