@@ -29,7 +29,7 @@ function Projects() {
             </section>
             <section>
                 <h2>Open Source Projects</h2>
-                <p className="section-intro">Projects below that I maintain as open-source. Contributions are welcome. Please look for issues labelled good first issue or help wanted.</p>
+                <p className="section-intro">Projects that I maintain as open-source. Contributions are welcome: look for issues labelled <em>good first issue</em> or <em>help wanted</em>.</p>
                 <div className="projects-grid">
                 {open_source_projects.map((project) => (
                     <ProjectCard key={project.id} project={project} />
